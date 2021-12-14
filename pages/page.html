@@ -4,7 +4,9 @@
      <meta charset="utf-8">
      <title>Login</title>
   </head>
+
 <body bgcolor="#04070F">
+  <form onsubmit="checkMail()">
   <div style="background-color: #02050A; height: 50; display: flex; justify-content: center; align-items: center;">
     <a href="./INTRO.html"style="padding-left: 10%:text-decoration: none; color:white; ">Home</a>
     <a href="./INTRO.html"style="padding-left: 10%;text-decoration: none; color:white;">About us</a>
@@ -24,44 +26,12 @@
       <input id="passwo"type="password" name="" value="" required style="height: 40px; width: 500px; margin-left: 100px;"><br><br>
      <div align="center">
        <br>
-       <a onclick="checkMail()">
-      <button  style="background-color: #001217; color:white; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><b >LOGIN</b></button></a>
+       
+      <button type="submit"  style="background-color: #001217; color:white; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><b >LOGIN</b></button>
    </div>
-   <!-- <script>
-    function checkMail(){
-      alert("checkMail");
-    let user_array = JSON.parse(localStorage.getItem("Users_Details"));
-    let mailid = document.getElementById("mail").value;
-    let new_pwd = document.getElementById("passwo").value;
-    alert("user_array *:: "+ user_array);
-    for(let i=0; i < user_array.length; i++){
-     alert("user_array inside:: "+ user_array[i]);
-     alert("user_array email:: "+ user_array[i].email);
-      if(user_array[i].email == mailid && user_array[i].password == new_pwd){
-       window.location.href = "bike.html";
-      }
-      else{
-         alert("invalid mail-id");
-         window.location.href = "#";
-      }
-    }
-   }
-  </script> -->
-   <script>
-    function checkMail(){
-    let array = JSON.parse(localStorage.getItem("Users_Details"));
-    let mailid = document.getElementById("mail").value;
-    for(let i=0; i < array.length; i++){
-      if(array[i].email !== mailid ){
-         alert("Not match");
-        window.location.href = "#";
-      }
-      else{
-        window.location.href = "bike.html";
-      }
-    }
-   }
-  </script>
+   
+  </form>
+  <script src="../assets/js/login.js"></script>
 </body>
 </html>
 
