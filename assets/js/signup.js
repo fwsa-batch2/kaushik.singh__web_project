@@ -46,16 +46,10 @@ function check_password() {
 
 }
 
-// function add(num1, num2){
-//     Total = num1+ num2;
-//     alert(Total);
-// }
-
-// add(140000000, 23);
 
 function emailExist(currentEmail){
   let used = false;
-    for (i = 0; i < signUp.length; i++) {
+    for (let i = 0; i < signUp.length; i++) {
         const email = signUp[i].email;
         if (currentEmail == email) {
             used = true;
