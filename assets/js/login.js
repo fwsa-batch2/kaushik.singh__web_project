@@ -20,7 +20,7 @@ function submitHandler(event) {
     return null;
   }
   else {
-    alert("Valid")
+    alert("WELCOME")
     window.location.href="./../../pages/bike.html"
     localStorage.setItem("LoggedInUser", userMailId);
   }
