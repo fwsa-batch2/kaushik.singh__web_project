@@ -10,7 +10,7 @@
   
   pageonload()
   
-function check_password() {
+function check_password(event) {
   event.preventDefault();
 
   let name = document.getElementById("username").value;

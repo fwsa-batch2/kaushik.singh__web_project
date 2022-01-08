@@ -14,7 +14,7 @@ function pageonload(){
   
   pageonload()
 
-function booked(){
+function booked(event){
     event.preventDefault();
     const name = document.getElementById("User_name").value; 
     const email = document.getElementById("email").value; 
