@@ -6,13 +6,9 @@
 
       <style>
         body {
-            background-image: url('rrls.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
+          background-color: #04070F;
           }
         #con{
-            /* border:1px solid white; */
             background-color:#02050A;
             height:50px;
             padding-top:1%;
@@ -39,10 +35,12 @@
         #sgn:hover{
             background-color:#003452;
         }
-
+        #topic{
+          text-align: center;
+        }   
     </style>
     </head>
-  <body bgcolor="#04070F">
+  <body>
     <form onsubmit="check_password()">
 
       <div id="con">
@@ -53,8 +51,8 @@
         <a href="./reviews.html">Review</a>
         <a href="./page.html">Login</a>
       </div>
-    <h1 style="color:grey" align="center"> MLG </h1>
-    <table  align="center">
+    <h1 id="topic" style="color:grey"> MLG </h1>
+    <table>
       <caption> </caption>
     <tr>
       <th class="table" scope="row"></th>
@@ -64,26 +62,25 @@
       <input pattern="[A-Za-z]{1,20}"type="text" name="" value="" id="username" required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
     <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Second Name:</strong></label><br><br>
       <input type="text" name="" value="" id="secondname"required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
-    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Email_id:</strong>></label><br><br>
+    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Email_id:</strong></label><br><br>
       <input type="email" name="" value="" id="email"required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
-    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>dob:</strong>></label><br><br>
+    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>dob:</strong></label><br><br>
       <input type="date" name="" value="" id="date"required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
-    <label  style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Password:</strong>></label><br><br>
+    <label  style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Password:</strong></label><br><br>
       <input id="password" type="password" name="" value="" required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
-    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Conform Password:</strong>></label><br><br>
+    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Conform Password:</strong></label><br><br>
       <input id="confirm_password" type="password" name="" value="" required style="height: 20px; width: 500px; margin-left: 100px;"><br><br>
 
       <div>
       <input type="submit" style="background-color: #001217; color:white; height: 35px; width: 90px; margin-left: 300px; font-size: 1vw;">
     </div>
     <br>
-    
-  </form>
   <div>
     <a href="../pages/page.html">
-    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Have an account:</strong>></label>
+    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Have an account:</strong></label>
     <button style="background-color: #001217; color:white; height: 35px; width: 90px; margin-left: 250px; font-size: 1vw;" type="button"><strong>Login</strong></button></a>
   </div>
+  </form>
   </table>
   <script src="../assets/js/signup.js">
 

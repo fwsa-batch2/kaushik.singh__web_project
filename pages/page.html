@@ -3,9 +3,21 @@
     <head>
       <meta charset="utf-8">
       <title>Login</title>
+
+      <style>
+          body{
+            background-color:#04070F;
+          }
+          h1{
+            text-align: center;
+          }
+          #log{
+            text-align: center;
+          }
+      </style>
     </head>
 
-  <body bgcolor="#04070F">
+  <body>
     <form onsubmit="submitHandler(event)">
     <div style="background-color: #02050A; height: 50; display: flex; justify-content: center; align-items: center;">
       <a href="./INTRO.html"style="padding-left: 10%:text-decoration: none; color:white; ">Home</a>
@@ -15,7 +27,7 @@
       <a href="./reviews.html" style="padding-left: 10%;text-decoration: none; color:white;">Review</a>
       <a href="./page.html" style="padding-left: 10%;text-decoration: none; color:white;">Login</a>
     </div>
-  <h1 style="color:grey" align="center"> MLG </h1>
+  <h1 style="color:grey"> MLG </h1>
     <table>
       <caption> </caption>
     <tr>
@@ -26,9 +38,8 @@
       <input id="mail" type="e-mail" name="" value="" style="height: 40px; width: 500px; margin-left: 100px; " ><br><br>
       <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Password:<strong></label><br><br>
         <input id="passwo"type="password" name="" value=""  style="height: 40px; width: 500px; margin-left: 100px;"><br><br>
-      <div align="center">
-        <br>
-        
+      <div id="log">
+        <br> 
         <button type="submit"  style="background-color: #001217; color:white; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><strong>LOGIN</strong></button>
     </div>
     </table>

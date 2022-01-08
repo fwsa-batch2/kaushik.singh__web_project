@@ -31,3 +31,9 @@
     text-transform: uppercase;
     margin-left: 10%;
 }
+body{
+   background-color: #04070F;
+}
+h1{
+    text-align: center;
+}
