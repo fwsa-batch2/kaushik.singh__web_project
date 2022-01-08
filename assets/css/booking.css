@@ -1,0 +1,33 @@
+#bike-img{
+    position: absolute;
+    top: 32%;
+    left: 500px;
+}
+
+.content{
+    position: absolute;
+    cursor: col-resize;
+    width: 50%;
+    height: 93vh;
+    right: 0;
+    top: 7vh;
+}
+
+.content p{
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: whitesmoke;
+    font-family: cursive;
+    margin-left: 16%;
+}
+
+.content h5{
+    font-size: 22px;
+    font-weight: bold;
+    color: khaki;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    margin-left: 10%;
+}

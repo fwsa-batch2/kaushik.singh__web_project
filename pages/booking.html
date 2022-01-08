@@ -3,6 +3,7 @@
   <head>
   <meta charset="utf-8">
   <title>Booking</title>
+  <link rel="stylesheet" href="./../assets/css/booking.css">
   </head>
 
 <body bgcolor="#04070F">
@@ -15,19 +16,35 @@
     <a href="./page.html" style="padding-left: 10%;text-decoration: none; color:white;">Login</a>
   </div>
   <h1 style="color:grey;" align="center"> MLG BOOKING </h1>
-  <form>
+  <form onsubmit="booked()">
     <table border="1">
       <caption> </caption>
-     <tr><th style="color:grey">name:</th><td> <input type="text" name="NAME" value="Enter your name"></td></tr>
-      <tr><th style="color:grey">Email_id:</th><td> <input type="text" Email_id="Email_id"></td></tr>
-      <tr><th style="color:grey">date of booking:</th><td> <input type="date" date=""></td></tr>
+     <tr>
+       <th style="color:grey" class="table" scope="row">name:</th><td> <input id="User_name" type="text" name="NAME" placeholder="Enter your name" required></td>
+      </tr>
+      <tr>
+        <th style="color:grey" class="table" scope="row">Email_id:</th><td> <input id="email" type="text" Email_id="Email_id" required></td>
+      </tr>
+      <tr>
+        <th style="color:grey" class="table" scope="row">date of booking:</th><td> <input id="Date_booking" type="date" date="" required></td>
+      </tr>
+      <tr>
       <td style="color:grey" align="right"><lable for="Address" id="Address"> conform address: </lable></td>
-      <td style="color:grey"><textarea name="text" rows="8" cols="20.9"></textarea></td>
-      <tr><th style="color:grey">Select:</th><td> <input type="radio" name="gender">Conform</td></tr>
-      <tr><th style="color:grey">conform booking<button><a href="./ended.html">submit<a><button></th></td></tr>
+      <td style="color:grey"><textarea name="text" rows="8" cols="20.9" required></textarea></td>
+    </tr>
+      <tr>
+        <th style="color:grey" class="table" scope="row" > confirm booking </th>
+        <td> <input type="submit">Book</td>
+        <!-- <td> <a href="../pages/ended.html" type="submit" >submit</td> -->
+      </tr></a>
     </table>
   </form>
   <img src="" id="bike-img" alt="">
+  
+  <div class="content">
+    <p>Almost near</p>
+    <h5>Hurray!</h5>
+  </div>
   
   <script src="./../assets/js/booking.js">
 

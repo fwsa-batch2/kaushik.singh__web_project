@@ -1,5 +1,4 @@
 
-
   let signUp = [];
 
   function pageonload(){
