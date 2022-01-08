@@ -16,7 +16,7 @@ function submitHandler(event) {
   console.log(userPass);
   let isDetailExist = isUserDetailExist(userMailId, userPass);
   if (isDetailExist !== true) {
-    alert("Invalid")
+    alert("Invalid mail or password")
     return null;
   }
   else {
