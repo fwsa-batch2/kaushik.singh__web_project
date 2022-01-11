@@ -48,7 +48,8 @@ function check_password(event) {
 
 function emailExist(currentEmail){
   let used = false;
-    for (let a = 0; a < signUp.length; a++) {
+  let len= signUp.length;
+    for (let a = 0; a < len; a++) {
         const email = signUp[a].email;
         if (currentEmail == email) {
             used = true;
