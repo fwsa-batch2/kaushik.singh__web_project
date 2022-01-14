@@ -1,0 +1,40 @@
+body {
+  background-color: #04070f;
+}
+
+#con {
+  background-color: #02050a;
+  height: 50px;
+  padding-top: 1%;
+  text-align: center;
+}
+
+a {
+  margin-left: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#wel {
+  width: 20%;
+  margin: auto;
+  margin-top: 30%;
+  color: white;
+}
+
+a:hover {
+  background-color: #003452;
+}
+
+#sgn:hover {
+  background-color: #003452;
+}
+
+#topic {
+  text-align: center;
+}

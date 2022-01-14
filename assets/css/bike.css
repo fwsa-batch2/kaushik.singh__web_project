@@ -1,0 +1,27 @@
+body {
+  background-color: #04070f;
+}
+
+div {
+  background-color: #02050a;
+  height: 10%;
+  padding-top: 1%;
+  text-align: center;
+}
+.anger {
+  margin-left: 10%;
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.anger:hover {
+  background-color: #003452;
+}
+img {
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+}

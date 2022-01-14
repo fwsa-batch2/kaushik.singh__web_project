@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-    <head>
-      <meta charset="utf-8">
-      <title>Login</title>
+<html lang="en" dir="ltr">
 
-      <style>
-          body{
-            background-color:#04070F;
-          }
-          h1{
-            text-align: center;
-          }
-          #log{
-            text-align: center;
-          }
-      </style>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
 
-  <body>
-    <form onsubmit="submitHandler(event)">
-    <div style="background-color: #02050A; height: 50; display: flex; justify-content: center; align-items: center;">
-      <a href="./INTRO.html"style="padding-left: 10%:text-decoration: none; color:white; ">Home</a>
-      <a href="./INTRO.html"style="padding-left: 10%;text-decoration: none; color:white;">About us</a>
-      <a href="./INTRO.html"style="padding-left: 10%;text-decoration: none; color:white;">Contact us</a>
-      <a href="https://www.google.co.in/maps" style="padding-left: 10%;text-decoration: none; color:white;">Location</a>
-      <a href="./reviews.html" style="padding-left: 10%;text-decoration: none; color:white;">Review</a>
-      <a href="./login.html" style="padding-left: 10%;text-decoration: none; color:white;">Login</a>
+  <link rel="stylesheet" href="../assets/css/login.css">
+</head>
+
+<body>
+  <form onsubmit="submitHandler(event)">
+
+    <div id="con">
+      <a href="./home.html" style=" margin-left:1%;">Home</a>
+      <a href="./INTRO.html">About us</a>
+      <a href="./INTRO.html">Contact us</a>
+      <a href="https://www.google.co.in/maps">Location</a>
+      <a href="./reviews.html">Review</a>
+      <a href="./sign.html">Signin</a>
     </div>
-  <h1 style="color:grey"> MLG </h1>
+    <h1 style="color:grey"> MLG </h1>
     <table>
       <caption> </caption>
-    <tr>
-      <th class="table" scope="row"></th>
-    <td><div style="background-color: #333333; width:700px; height: 400px; margin-left: 300px; margin-top: 100px;">
-      <br><br><br><br><br>
-    <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>E-Mail Address:<strong></label><br><br>
-      <input id="mail" type="e-mail" name="" value="" style="height: 40px; width: 500px; margin-left: 100px;" required ><br><br>
-      <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Password:<strong></label><br><br>
-        <input id="passwo"type="password" name="" value=""  style="height: 40px; width: 500px; margin-left: 100px;" required ><br><br>
-      <div id="log">
-        <br> 
-        <button type="submit"  style="background-color: #001217; color:white; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><strong>LOGIN</strong></button>
-    </div>
+      <tr>
+        <th class="table" scope="row"></th>
+        <td>
+          <div style="background-color: #333333; width:700px; height: 400px; margin-left: 300px; margin-top: 100px;">
+            <br><br><br><br><br>
+            <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>E-Mail
+                Address:<strong></label><br><br>
+            <input id="mail" type="e-mail" name="" value="" style="height: 40px; width: 500px; margin-left: 100px;"
+              required><br><br>
+            <label style="font-size: 1.2vw; margin-left: 100px; color:grey;"><strong>Password:<strong></label><br><br>
+            <input id="passwo" type="password" name="" value="" style="height: 40px; width: 500px; margin-left: 100px;"
+              required><br><br>
+            <div id="log">
+              <br>
+              <button type="submit"
+                style="background-color: #001217; color:white; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><strong>LOGIN</strong></button>
+            </div>
     </table>
-    </form>
-    <script src="../assets/js/login.js"></script>
-  </body>
-  </html>
+  </form>
+  <script src="../assets/js/login.js"></script>
+</body>
 
-
+</html>

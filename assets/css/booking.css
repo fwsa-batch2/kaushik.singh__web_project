@@ -10,7 +10,7 @@
     width: 50%;
     height: 93vh;
     right: 0;
-    top: 7vh;
+    top: 13vh;
 }
 
 .content p{
@@ -37,3 +37,27 @@ body{
 h1{
     text-align: center;
 }
+
+#con{
+    background-color:#02050A;
+    height:50px;
+    padding-top:1%;
+    text-align:center;
+}
+a{
+  margin-left:10%;
+  text-decoration: none;
+  color:white;
+}
+#wel{
+    width:20%;
+    margin:auto;
+    margin-top:30%;
+    color:white;
+}
+ a:hover{
+   background-color:#003452;
+}
+ #sgn:hover{
+    background-color:#003452;
+ }

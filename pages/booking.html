@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
   <meta charset="utf-8">
   <title>Booking</title>
   <link rel="stylesheet" href="./../assets/css/booking.css">
-  </head>
+</head>
 
 <body>
-  <div style="background-color: #02050A; height: 50; display: flex; justify-content: center; align-items: center;">
-    <a href="./INTRO.html"style="padding-left: 10%:text-decoration: none; color:white; ">Home</a>
-    <a href="./INTRO.html"style="padding-left: 10%;text-decoration: none; color:white;">About us</a>
-    <a href="./INTRO.html"style="padding-left: 10%;text-decoration: none; color:white;">Contact us</a>
-    <a href="https://www.google.co.in/maps" style="padding-left: 10%;text-decoration: none; color:white;">Location</a>
-    <a href="./reviews.html" style="padding-left: 10%;text-decoration: none; color:white;">Review</a>
-    <a href="./login.html" style="padding-left: 10%;text-decoration: none; color:white;">Login</a>
+  <div id="con">
+    <a href="./home.html" style=" margin-left:1%;">Home</a>
+    <a href="./INTRO.html">About us</a>
+    <a href="./INTRO.html">Contact us</a>
+    <a href="https://www.google.co.in/maps">Location</a>
+    <a href="./reviews.html">Review</a>
+    <a href="./login.html">Login</a>
   </div>
+
   <h1 style="color:grey;"> MLG BOOKING </h1>
   <form onsubmit="booked(event)">
     <table border="1">
       <caption> </caption>
-     <tr>
-       <th style="color:grey" class="table" scope="row">name:</th><td> <input id="User_name" type="text" name="NAME" placeholder="Enter your name" required></td>
+      <tr>
+        <th style="color:grey" class="table" scope="row">name:</th>
+        <td> <input id="User_name" type="text" name="NAME" placeholder="Enter your name" required></td>
       </tr>
       <tr>
-        <th style="color:grey" class="table" scope="row">Email_id:</th><td> <input id="email" type="text" Email_id="Email_id" required></td>
+        <th style="color:grey" class="table" scope="row">Email_id:</th>
+        <td> <input id="email" type="text" Email_id="Email_id" required></td>
       </tr>
       <tr>
-        <th style="color:grey" class="table" scope="row">date of booking:</th><td> <input id="Date_booking" type="date" date="" required></td>
+        <th style="color:grey" class="table" scope="row">date of booking:</th>
+        <td> <input id="Date_booking" type="date" date="" required></td>
       </tr>
       <tr>
-      <td style="color:grey"><lable for="Address" > conform address: </lable></td>
-      <td style="color:grey"><textarea name="text" rows="8" cols="20.9" id="Address" required></textarea></td>
-    </tr>
+        <td style="color:grey">
+          <lable for="Address"> conform address: </lable>
+        </td>
+        <td style="color:grey"><textarea name="text" rows="8" cols="20.9" id="Address" required></textarea></td>
+      </tr>
       <tr>
-        <th style="color:grey" class="table" scope="row" > confirm booking </th>
-        <td><button type="submit"  style="background-color: whitesmoke; color:black; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><strong>LOGIN</strong></button></td>
+        <th style="color:grey" class="table" scope="row"> confirm booking </th>
+        <td><button type="submit"
+            style="background-color: whitesmoke; color:black; height: 35px; width: 90px; margin:auto; font-size: 1vw;"><strong>LOGIN</strong></button>
+        </td>
       </tr></a>
     </table>
   </form>
   <img src="" id="bike-img" alt="">
-  
+
   <div class="content">
     <p>Almost near</p>
     <h5>Hurray!</h5>
   </div>
-  
+
   <script src="./../assets/js/booking.js">
 
   </script>
 </body>
+
 </html>
