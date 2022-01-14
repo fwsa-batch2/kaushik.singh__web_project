@@ -2,7 +2,7 @@ function big(img) {
     document.querySelector('.big').src = img;
 }
 function path(color) {
-    const guga= document.querySelector('.path');
+    const duga= document.querySelector('.path');
     duga.style.background = color;
 }
 function bg(background) {
