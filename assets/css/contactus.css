@@ -1,0 +1,109 @@
+body {
+  background-color: #04070f;
+}
+
+#con {
+  background-color: #02050a;
+  height: 50px;
+  padding-top: 1%;
+  text-align: center;
+}
+
+a {
+  margin-left: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+#wel {
+  width: 20%;
+  margin: auto;
+  margin-top: 30%;
+  color: white;
+}
+
+a:hover {
+  background-color: #003452;
+}
+
+#upimg img {
+  width: 100%;
+  height: 300px;
+}
+
+#locat {
+  color: cornsilk;
+  height: 10%;
+  width: 2 0%;
+  margin-top: 7px;
+  margin-left: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#name {
+  margin-top: 100px;
+  margin-left: 800px;
+  width: 30%;
+  height: 30px;
+}
+
+#mail {
+  margin-left: 800px;
+  width: 30%;
+  height: 30px;
+}
+
+#messg {
+  margin-left: 800px;
+  width: 30%;
+  height: 100px;
+}
+
+#snd_mssg {
+  background-color: #001217;
+  margin: auto;
+  color: white;
+  height: 35px;
+  width: 200px;
+  font-size: 1vw;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+h3 {
+  margin-left: 700px;
+  color: cornsilk;
+}
+
+.detail {
+  color: whitesmoke;
+  width: 30%;
+}
+
+h2 {
+  margin-right: 10px;
+}
+
+#comp_det {
+  margin-left: 50px;
+}
+
+#co_dt {
+  margin-left: 50px;
+}
+
+#co_detail {
+  margin-left: 50px;
+}
+
+.ph_web {
+  color: whitesmoke;
+  margin-left: 400px;
+}
+#text_img {
+  color: honeydew;
+  margin-left: 90%;
+}
+#text_img :hover {
+  background-color: grey;
+}
