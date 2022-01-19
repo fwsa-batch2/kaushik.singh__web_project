@@ -140,3 +140,12 @@ a:hover{
     width: 13%;
 }
 
+#price{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px white;
+    text-transform: uppercase;
+    margin-left: 15%;
+}
