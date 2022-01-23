@@ -5,61 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modify</title>
+    <title>dugati</title>
     <link rel="stylesheet" href="../assets/css/dugati.css">
 </head>
 
 <body>
-    <div class="path"></div>
-
     <div id="con">
-        <a href="./page.html">Login</a>
         <a href="./INTRO.html">Home</a>
         <a href="https://www.google.co.in/maps">Location</a>
         <a href="./reviews.html">Review</a>
         <a href="./login.html">Login</a>
-
     </div>
+    <div></div>
 
+    <div class="path"></div>
     <div class="cont">
-
         <div class="thumb">
             <ul>
-                <li><img src="../assets/images/bmw.jpeg" alt=""
-                        onclick="big('../assets/images/bmw.jpeg');path('#04070F');bg('#e5e5e5')"></li>
+                <li><img src="../assets/images/ducati_paniga-V4.png" alt=""
+                        onclick="big('../assets/images/ducati_paniga-V4.png');"></li>
             </ul>
             <ul>
-                <li><img src="../assets/images/dugati.png" alt=""
-                        onclick="big('../assets/images/dugati.png');path('#04070F');bg('#e5e5e5')"></li>
+                <li><img src="../assets/images/ducati_paniga-V2.png" alt=""
+                        onclick="big('../assets/images/ducati_paniga-V2.png');"></li>
             </ul>
             <ul>
-                <li><img src="../assets/images/bmw.jpeg" alt=""
-                        onclick="big('../assets/images/bmw.jpeg');path('#04070F');bg('#e5e5e5')"></li>
+                <li><img src="../assets/images/ducati_monsters.png" alt=""
+                        onclick="big('../assets/images/ducati_monsters.png');"></li>
             </ul>
             <ul>
-                <li><img src="../assets/images/rc.png" alt=""
-                        onclick="big('../assets/images/rc.png');path('#04070F');bg('#e5e5e5')"></li>
-            </ul>
-            <ul>
-                <li><img src="../assets/images/dugati.png" alt=""
-                        onclick="big('../assets/images/dugati.png');path('#04070F');bg('#e5e5e5')"></li>
+                <li><img src="../assets/images/ducati_italic-garage.png" alt=""
+                        onclick="big('../assets/images/ducati_italic-garage.png');"></li>
             </ul>
         </div>
 
-        <div class="big-img">
-            <img src="../assets/images/bmw.jpeg" alt="" class="big">
-        </div>
 
         <div class="content">
             <p>Book</p>
             <h1>Your favourite</h1>
-            <h5>Come On</h5>
+            <h5>Come On</h5><br>
+            <div><span id="price"> &#8377; Ex-Showroom Price </span></div>
         </div>
+
+
+        <div class="parts">
+            <img id="engn" src="../assets/images/ducati_paniga-v2-engine.jpg" alt="" width="1%">
+            <img id="hand" src="../assets/images/ducati_paniga-v2-doom.jpg" alt="">
+            <img id="spedo" src="../assets/images/ducati_paniga-v2-seat.jpeg" alt="">
+            <img id="suspen" src="../assets/images/ducati_paniga-v2-suspension.jpg" alt="">
+
+        </div>
+
     </div>
 
-    <script src="../assets/js/dugati.js">
+    <div class="big-img">
+        <button onclick="toBook()">
+            <img id="main_img" src="../assets/images/ducati_paniga-V2.png" alt="" class="big">
+        </button>
+    </div>
 
-    </script>
+    </div>
+
+
+    <script src="../assets/js/dugati.js"></script>
 </body>
 
 </html>

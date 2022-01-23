@@ -21,7 +21,7 @@ function submitHandler(event) {
   }
   else {
     alert("WELCOME")
-    window.location.href="./../../pages/bike.html"
+    window.location.href="./../../pages/car.html"
     localStorage.setItem("LoggedInUser", userMailId);
   }
 }

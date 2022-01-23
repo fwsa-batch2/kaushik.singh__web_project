@@ -38,12 +38,6 @@ function big(img) {
 
     }
 }
-
-function right(background) {
-    const bg = document.querySelector('.cont');
-    bg.style.background = background;
-}
-
 function toBook() {
     let imgSrc = document.getElementById('main_img').src;
     console.log(imgSrc);

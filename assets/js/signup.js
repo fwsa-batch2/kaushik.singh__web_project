@@ -40,7 +40,7 @@ function check_password(event) {
   
     signUp.push(customer_details);
     localStorage.setItem("Users_Details", JSON.stringify(signUp));
-    window.location.href = "./bike.html";
+    window.location.href = "../../pages/car.html";
   }
 
 }
