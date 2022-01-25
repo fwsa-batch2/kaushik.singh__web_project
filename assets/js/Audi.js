@@ -39,7 +39,6 @@ function big(img) {
     }
 }
 
-
 function toBook() {
     let imgSrc = document.getElementById('main_img').src;
     console.log(imgSrc);
