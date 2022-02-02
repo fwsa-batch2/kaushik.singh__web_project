@@ -124,22 +124,24 @@
   
   .parts{
     position: absolute;
-    top: 7vh;
-    right: 0;
-    width: 60%;
-    height: 93vh;
+    bottom: 10%;
+    right: 5%;
+    width: 55%;
+  }
+
+  .parts div{
+    display: inline-block;
+    position: relative;
+    width: 22%;
+    height: 17vh;
+    overflow: hidden;
+    margin-left: 2%;
   }
   
-  .parts img{
-    width: 20%;
-    margin: 0% 2%;
-    margin-top: 50%;
+  .parts div img{
+    width:100%;
   }
-  
-  #suspen{
-    width: 13%;
-  }
-  
+
   #price{
     font-size: 25px;
     font-weight: bold;

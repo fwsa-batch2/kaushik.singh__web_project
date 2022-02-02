@@ -36,3 +36,26 @@ a:hover {
 #log {
   text-align: center;
 }
+#review{
+  margin-left: 10%;
+  height: 150px;
+  width: 70%;
+}
+#revi_button{
+  background-color: whitesmoke;
+  color:black;
+  height: 35px;
+  width: 90px;
+  font-size: 1vw;
+  border-radius: 100px;
+  margin-left: 150px;
+}
+#reviewer_name{
+  border-radius: 50px;
+  margin-left: 131px;
+  height: 30px;
+}
+#reviewer_city{
+  border-radius: 50px;
+  height: 30px;
+}
