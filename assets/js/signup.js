@@ -1,5 +1,5 @@
 
-  let signUp = [];
+  let signUp = []; //userdetils-signup
 
   function pageonload(){
     const user = JSON.parse(localStorage.getItem("Users_Details"));
@@ -22,7 +22,7 @@ function check_password(event) {
 
   let isEmailExist = emailExist(gmail);
 
-  if (Create != Confirm) {
+  if (Create != Confirm) {decription
     alert("Incorrect password");   
   }
   else if(isEmailExist){

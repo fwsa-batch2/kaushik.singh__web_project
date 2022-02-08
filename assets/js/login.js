@@ -1,4 +1,5 @@
 let userDetails = [];
+
 console.log(userDetails);
 function pageOnLoad() {
   const loginUser = JSON.parse(localStorage.getItem("Users_Details"));
@@ -28,7 +29,7 @@ function submitHandler(event) {
 function isUserDetailExist(userMailId, userPassword) {
   let isExist = false;
   const lengthOfArray = userDetails.length;
-  for (let i = 0; i < lengthOfArray; i++) {
+  for (let i = 0; i < lengthOfArray; i++) { //len-length
     const valuesInArray = userDetails[i];
     const userEmail = valuesInArray.email;
     console.log(userEmail);
